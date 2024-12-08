@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - Fictional Bookstore</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="books.html">Books</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="checkout">
+    <h1>Checkout</h1>
+    <form action="#" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+      
+      <label for="address">Address</label>
+      <textarea id="address" name="address" placeholder="Your Address" rows="3" required></textarea>
+      
+      <label for="payment">Payment Method</label>
+      <select id="payment" name="payment" required>
+        <option value="credit">Credit Card</option>
+        <option value="debit">Debit Card</option>
+        <option value="paypal">PayPal</option>
+      </select>
+      
+      <button type="submit" class="button">Place Order</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Fictional Bookstore. All rights reserved.</p>
+  </footer>
+</body>
+</html>

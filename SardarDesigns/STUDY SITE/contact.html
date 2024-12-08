@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Study Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <nav class="nav-menu" id="nav-menu">
+      <ul>
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="tasks.html" class="nav-link">Study Tasks</a></li>
+        <li><a href="calendar.html" class="nav-link">Calendar</a></li>
+        <li><a href="tips.html" class="nav-link">Study Tips</a></li>
+        <li><a href="tracker.html" class="nav-link">Progress Tracker</a></li>
+        <li><a href="resources.html" class="nav-link">Resources</a></li>
+        <li><a href="contact.html" class="nav-link active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact-section" id="contact">
+    <h1 class="contact-heading">Contact Us</h1>
+    <p class="contact-description">Have questions? Feel free to reach out!</p>
+    <form id="contact-form" class="contact-form">
+      <label for="contact-name">Name</label>
+      <input type="text" id="contact-name" placeholder="Enter your name" required>
+
+      <label for="contact-email">Email</label>
+      <input type="email" id="contact-email" placeholder="Enter your email" required>
+
+      <label for="contact-message">Message</label>
+      <textarea id="contact-message" rows="4" placeholder="Enter your message" required></textarea>
+
+      <button type="submit" id="submit-contact" class="submit-button">Submit</button>
+    </form>
+  </section>
+
+  <footer class="footer" id="footer">
+    <p>&copy; 2024 Study Planner. All rights reserved.</p>
+  </footer>
+</body>
+</html>

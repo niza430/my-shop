@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Tasks - Study Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <nav class="nav-menu" id="nav-menu">
+      <ul>
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="tasks.html" class="nav-link">Study Tasks</a></li>
+        <li><a href="calendar.html" class="nav-link">Calendar</a></li>
+        <li><a href="tips.html" class="nav-link">Study Tips</a></li>
+        <li><a href="tracker.html" class="nav-link">Progress Tracker</a></li>
+        <li><a href="resources.html" class="nav-link">Resources</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="tasks-section" id="tasks">
+    <h1 class="tasks-heading">Your Daily Study Tasks</h1>
+    <form id="task-form" class="task-form">
+      <label for="task-name" class="task-label">Task Name:</label>
+      <input type="text" id="task-name" class="task-input" placeholder="Enter task" required>
+
+      <label for="task-time" class="task-label">Time to Study (hours):</label>
+      <input type="number" id="task-time" class="task-input" placeholder="Enter time" required>
+
+      <button type="submit" id="submit-task" class="task-button">Add Task</button>
+    </form>
+    <div id="task-list" class="task-list"></div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <p>&copy; 2024 Study Planner. All rights reserved.</p>
+  </footer>
+</body>
+</html>

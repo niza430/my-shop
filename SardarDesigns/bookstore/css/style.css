@@ -1,0 +1,670 @@
+/* Resetting default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header and navigation styles */
+header {
+  background-color: #2d3e50;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px 15px;
+}
+
+nav ul li a:hover {
+  background-color: #ffcc00;
+  border-radius: 5px;
+}
+
+/* Hero section styles */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #78a9f0;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero .button {
+  background-color: #ffcc00;
+  color: #333;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.hero .button:hover {
+  background-color: #f8a500;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2d3e50;
+  color: #fff;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+/* BOOKS.HTML */
+/* General body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header and navigation styles */
+header {
+  background-color: #2d3e50;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px 15px;
+}
+
+nav ul li a:hover {
+  background-color: #ffcc00;
+  border-radius: 5px;
+}
+
+/* Book grid styles */
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.book-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-10px);
+}
+
+.book-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.book-card h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 10px;
+}
+
+.book-card p {
+  font-size: 1rem;
+  color: #666;
+  margin: 5px 0;
+}
+
+.book-card .button {
+  display: inline-block;
+  background-color: #ffcc00;
+  color: #333;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.book-card .button:hover {
+  background-color: #f8a500;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2d3e50;
+  color: #fff;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+
+/* CATEGORIES HTML */
+/* General body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header and navigation styles */
+header {
+  background-color: #2d3e50;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px 15px;
+}
+
+nav ul li a:hover {
+  background-color: #ffcc00;
+  border-radius: 5px;
+}
+
+/* Categories section styles */
+.categories-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.categories-section h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.category-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-10px);
+}
+
+.category-card h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 10px;
+}
+
+.category-card p {
+  font-size: 1rem;
+  color: #666;
+  margin: 5px 0;
+}
+
+.category-card .button {
+  display: inline-block;
+  background-color: #ffcc00;
+  color: #333;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.category-card .button:hover {
+  background-color: #f8a500;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2d3e50;
+  color: #fff;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+
+/* BOOKS DETAIL  */
+/* General body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header and navigation styles */
+header {
+  background-color: #2d3e50;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px 15px;
+}
+
+nav ul li a:hover {
+  background-color: #ffcc00;
+  border-radius: 5px;
+}
+
+/* Book details section */
+.book-details {
+  padding: 40px;
+  text-align: center;
+}
+
+.book-details-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.book-image {
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.book-info {
+  max-width: 500px;
+  text-align: left;
+}
+
+.book-info h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.book-info p {
+  font-size: 1rem;
+  color: #666;
+  margin: 10px 0;
+}
+
+.book-info .button {
+  display: inline-block;
+  background-color: #ffcc00;
+  color: #333;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.book-info .button:hover {
+  background-color: #f8a500;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2d3e50;
+  color: #fff;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+/* ABOUT .HTML */
+
+/* About Us Section */
+.about {
+  padding: 40px;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+}
+
+.about h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about h2 {
+  font-size: 1.5rem;
+  color: #2d3e50;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.about ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 1rem;
+  color: #666;
+}
+
+.about ul li {
+  margin: 8px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2d3e50;
+  color: #fff;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+
+/* CONTACT .HTML */
+/* Contact Us Section */
+.contact {
+  padding: 40px;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact label {
+  font-size: 1rem;
+  margin: 10px 0;
+  text-align: left;
+  width: 80%;
+}
+
+.contact input, .contact textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact button {
+  width: 80%;
+  padding: 10px;
+  background-color: #2d3e50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.contact button:hover {
+  background-color: #1a2531;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2d3e50;
+  color: #fff;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+/* CART .HTML */
+/* Contact Us Section */
+.contact {
+  padding: 40px;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact label {
+  font-size: 1rem;
+  margin: 10px 0;
+  text-align: left;
+  width: 80%;
+}
+
+.contact input, .contact textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact button {
+  width: 80%;
+  padding: 10px;
+  background-color: #2d3e50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.contact button:hover {
+  background-color: #1a2531;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2d3e50;
+  color: #fff;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+
+/* CHECKOOUT HTML */
+/* Checkout Page Styles */
+.checkout {
+  padding: 40px;
+  background-color: #f9f9f9;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.checkout h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.checkout label {
+  font-size: 1rem;
+  margin-top: 10px;
+  display: block;
+}
+
+.checkout input, .checkout textarea, .checkout select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.checkout button {
+  padding: 10px 20px;
+  background-color: #2d3e50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.checkout button:hover {
+  background-color: #1a2531;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2d3e50;
+  color: #fff;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 0;
+}
